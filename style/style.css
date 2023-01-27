@@ -47,7 +47,7 @@ nav.navbar a:hover {
 nav.navbar ul {
     margin-top: 3px;
     display: flex;
-    width: 35%;
+    width: 40%;
     list-style: none;
     justify-content: space-around;
 }
