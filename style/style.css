@@ -17,6 +17,7 @@ nav.navbar {
     display: flex;
     justify-content: space-around;
     color: #fff;
+    box-shadow: .1px .1px 1px black;
 }
 .logo span {
     padding-top: 10px;
@@ -49,7 +50,7 @@ nav.navbar ul {
     display: flex;
     width: 40%;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 nav .button {
     position: relative;
