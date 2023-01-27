@@ -1,0 +1,68 @@
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+@font-face {
+    font-family: akira;
+    src: url("../assets/font/akira.otf");
+}
+
+nav.navbar {
+    text-decoration: none;
+    background-color: #797EF6;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+.logo span {
+    padding-top: 10px;
+    letter-spacing: 2px;
+    color: salmon;
+    text-shadow: 1px 1px 3px black;
+}
+.logo {
+    font-family: akira;
+    font-size: 20px;
+    
+    font-weight: bolder;
+    /* color: red; */
+}
+
+nav.navbar a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: large;
+}
+nav.navbar a:hover {
+    color: lightblue;
+    text-shadow: 1px 1px 3px grey;
+}
+
+nav.navbar ul {
+    margin-top: 3px;
+    display: flex;
+    width: 35%;
+    list-style: none;
+    justify-content: space-around;
+}
+nav .button {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    font-weight: bolder;
+    color: black;
+    padding: 6px 25px;
+    border-radius: 4px;
+    transform: 9s linear;
+}
+nav .button:hover {
+    scale: 1.01;
+    padding: 6px 30px;
+}
+
