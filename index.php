@@ -11,6 +11,6 @@
     <!-- navbar -->
     <?php include 'navbar.php' ?>
     <!-- akhir navbar -->
-    <?php include 'dedy.php' ?>
+    <?php include 'home.php' ?>
 </body>
 </html>
