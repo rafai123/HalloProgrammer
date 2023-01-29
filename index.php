@@ -9,8 +9,8 @@
 </head>
 <body>
     <!-- navbar -->
-    <?php include 'rafai.php' ?>
+    <?php include 'navbar.php' ?>
     <!-- akhir navbar -->
-    <?php include 'dedi.php' ?>
+    <?php include 'dedy.php' ?>
 </body>
 </html>
